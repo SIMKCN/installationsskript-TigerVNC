@@ -1,3 +1,3 @@
 #!/bin/bash
 
-vncviewer rechner1:1 & vncviewer2:2
+vncviewer rechner1:1 & vncviewer rechner2:2
