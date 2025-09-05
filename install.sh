@@ -24,7 +24,7 @@ AUTOSTART_FILE="$AUTOSTART_DIR/vncviewer.desktop"
 cat <<EOF > "$AUTOSTART_FILE"
 [Desktop Entry]
 Type=Application
-Exec=/home/plattenspieler/viewer.sh
+Exec=/home/plattenkopie/viewer.sh
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
@@ -41,6 +41,7 @@ chmod +x viewer.sh
 reboot
 
 info "Fertig."
+
 
 
 
