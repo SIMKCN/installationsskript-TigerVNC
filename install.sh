@@ -24,7 +24,7 @@ AUTOSTART_FILE="$AUTOSTART_DIR/vncviewer.desktop"
 cat <<EOF > "$AUTOSTART_FILE"
 [Desktop Entry]
 Type=Application
-Exec=vncviewer -FullScreen=1 -FullScreenMode=all server1
+Exec=/home/plattenspieler/viewer.sh
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
@@ -36,4 +36,5 @@ info "Autostart-Eintrag wurde erfolgreich erstellt unter:"
 echo "$AUTOSTART_FILE"
 
 info "Fertig."
+
 
