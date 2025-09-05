@@ -35,6 +35,12 @@ EOF
 info "Autostart-Eintrag wurde erfolgreich erstellt unter:"
 echo "$AUTOSTART_FILE"
 
+mv viewer.sh /home/plattenkopie/
+cd /home/plattenkopie
+chmod +x viewer.sh
+reboot
+
 info "Fertig."
+
 
 
