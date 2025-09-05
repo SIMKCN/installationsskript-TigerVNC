@@ -10,7 +10,8 @@ error() { echo -e "\033[1;31m[ERROR]\033[0m $1"; }
 info "TigerVNC Viewer wird installiert..."
 sudo apt update
 sudo apt install -y tigervnc-viewer
-
+info "SSH Server wird installiert"
+sudo apt install openssh-server
 info "Autostart-Eintrag wird erstellt..."
 
 # Stelle sicher, dass das Autostart-Verzeichnis existiert
@@ -35,3 +36,4 @@ info "Autostart-Eintrag wurde erfolgreich erstellt unter:"
 echo "$AUTOSTART_FILE"
 
 info "Fertig."
+
